@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ash"
+version = "0.1.0-dev"
+dependencies = [
+    "pydantic",
+    "regex",
+    "aioconsole"
+]
+requires-python = ">=3.12"
+authors = [
+    {name = "Celeste Ma", email = "gerry.y.ma@gmail.com"}
+]
+description = "A simple game engine for making command line games."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["game", "engine", "command line", "ash"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Games/Entertainment",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3.12"
+]
+
+[project.urls]
+Homepage = "https://github.com/MtCelesteMa/ash-ge"
+"Bug Tracker" = "https://github.com/MtCelesteMa/ash-ge/issues"
